@@ -1,0 +1,22 @@
+{
+  "name": "todotask",
+  "version": "1.0.0",
+  "description": "This is the demo task for the Yapsody corporation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 20000",
+    "start": "nodemon server.js"
+  },
+  "author": "Jay Chouhan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^2.0.1"
+  }
+}
